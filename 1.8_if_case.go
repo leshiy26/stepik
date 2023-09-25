@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main18() {
 	//a := 2
 	i := 4
 	b := 3
@@ -72,5 +72,3 @@ func main() {
 	}
 
 }
-
-

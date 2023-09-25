@@ -13,7 +13,7 @@ const (
 	Add
 )
 
-func main() {
+func main19() {
 	fmt.Println(Sunday)                  // вывод 0
 	fmt.Println("Tuesday:", Tuesday)     // вывод 6
 	fmt.Println("Wednesday:", Wednesday) // вывод 6

@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main2() {
+func main172() {
 	var a, x, y, z int
 	fmt.Scanln(&a)
 	x = a % 10
@@ -17,7 +17,7 @@ func main2() {
 }
 
 // вывести первую цифру
-func main1() {
+func main171() {
 	var a int
 	fmt.Scan(&a)
 	switch {
@@ -36,7 +36,7 @@ func main1() {
 }
 
 // счастливый билет
-func main3() {
+func main173() {
 	var a, res1, res2, b1, b2 int
 	fmt.Scan(&a)
 	b1 = a / 1000
@@ -52,7 +52,7 @@ func main3() {
 }
 
 // определить високосный год
-func main() {
+func main17() {
 	var y int
 	fmt.Scan(&y)
 	if y%400 == 0 || y%4 == 0 && y%100 != 0 {
