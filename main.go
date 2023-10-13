@@ -1,25 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"stepik/morestrings"
 
-/*
-Из натурального числа удалить заданную цифру.
-*/
+	"github.com/leshiy26/stepik/module2"
+)
+
 func main() {
-	var N, t, u int
-	fmt.Scanln(&N)
-	fmt.Scanln(&u)
-	a := make([]int, 0, 100)
-	//	fmt.Printf("Тип: %T, Значени: %v", a, a)
-	for N > 0 {
-		t = N % 10
-		if t != u {
-			a = append(a, t)
-		}
-		N = N / 10
-	}
-	for i := len(a); i >= 1; i-- {
-		fmt.Printf("%v", a[i-1])
-	}
-
+	fmt.Println(morestrings.ReverseRunes("!oG ,olleH"))
+	fmt.Println(module2.TestModule2())
 }
