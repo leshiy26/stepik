@@ -5,7 +5,7 @@ import (
 	"stepik/morestrings"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/leshiy26/stepik/tree/main/module2"
+	"github.com/leshiy26/stepik/module2"
 )
 
 func main() {
